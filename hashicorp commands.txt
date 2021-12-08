@@ -1,0 +1,15 @@
+hasicorp commands
+
+starting with root token:
+
+vault server --dev --dev-root-token-id=00000000-0000-0000-0000-000000000000
+
+storing secrets:
+
+vault kv put secret/hashicorpvault hashi.user=foobar
+
+retrieving secrets:
+
+vault kv get secret/hashicorpvault
+
+vault status

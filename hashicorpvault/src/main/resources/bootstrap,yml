@@ -1,0 +1,18 @@
+#spring:
+##  application:
+##    name: hello
+#  cloud:
+#    vault:
+#      kv:
+#        enabled: true
+#      uri: http://localhost:8200
+#      host: localhost
+#      port: 8200
+#      scheme: http
+#       connection-timeout: 5000
+#       read-timeout: 15000
+#       authentication: TOKEN
+#      token: 00000000-0000-0000-0000-000000000000
+#      generic:
+#        enabled: true
+#        application-name: hello
