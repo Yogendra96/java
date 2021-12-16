@@ -1,6 +1,6 @@
 # spring-vault-config-example
 
-#to start the vault with token
+# to start the vault with token
 vault server --dev --dev-root-token-id=00000000-0000-0000-0000-000000000000
 
 open a new cmd and then execute below commands
@@ -14,5 +14,5 @@ vault kv get secret/spring-vault
 # Delete: 
 vault kv delete secret/spring-vault
 
-#status
+# status
 vault status
