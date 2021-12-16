@@ -1,0 +1,12 @@
+package com.vault.example;
+
+import lombok.Data;
+import org.springframework.boot.context.properties.ConfigurationProperties;
+
+@Data
+@ConfigurationProperties("java")
+public class Credential {
+
+    private String username;
+    private String password;
+}
